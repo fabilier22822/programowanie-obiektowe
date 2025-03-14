@@ -1,0 +1,1 @@
+Programowanie obiektowo - funkcyjne
