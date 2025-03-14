@@ -1,15 +1,10 @@
-package zad3;
-
-import java.util.Random;
+package zad3;  // Ensure the correct package declaration
 
 public class Auto {
-    final float[] przebieg = new float[12];
+    final float[] przebieg;
 
     public Auto() {
-        Random rand = new Random();
-        for (int i = 0; i < przebieg.length; i++) {
-            przebieg[i] = rand.nextFloat() * 1000;
-        }
+        przebieg = new float[]{1, 2, 3};
     }
 
     public float srPrzebieg() {
